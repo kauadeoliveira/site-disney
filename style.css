@@ -1,0 +1,111 @@
+@charset "UTF-8";
+@font-face {
+    font-family: Avenir;
+    src: url(avenir_ff/AvenirLTStd-Roman.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Avenir;
+    background-image:url(imagens/background-desktop.jfif);
+    background-size: cover;
+}
+.pre-sticky{
+    background-color: transparent;
+    height: 70px;
+}
+.login{
+    box-sizing: border-box;
+    align-items: center;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border: rgb(192,192,192) solid 1px;
+    cursor: pointer;
+    font-size: 15px;
+    letter-spacing: 1px;
+    height: 50px;
+    width: 110px;
+    left: 20px;
+    margin: 10px 40px 10px 55px;
+    display: flex;
+    float: right;
+    border-radius: 5px;
+}
+.login:hover{
+    background-color: white;
+    color: black;
+}
+a > span{
+    text-align:center;
+    border: 0;
+    margin: auto;
+    font-size: 18px;
+}
+.combo{
+color: white;
+width: 598px;
+height: 522px;
+font-size: 25px;
+padding: 15px 76px 0px 76px;
+}
+section.combo > h3{
+    margin: 0px 0px 24px;
+
+}
+.logo{
+    text-align: center;
+    padding: 0px 0px 0px 10px;
+    margin: 24px 0;
+    height: 163px;
+    width: 400px;
+}
+.container{
+    text-align: center;
+    align-items: center;
+    display: block;
+    padding-bottom: 10px;
+}
+#botaoazul{
+    background-color: rgb(0, 99, 229);
+    text-align: center;
+    align-items: center;
+    height: 68px;
+    width: 598;
+    box-sizing: border-box;
+    border-radius: 5px;
+    cursor: pointer;
+}
+div#botaoazul > p{
+    text-align: center;
+    padding: 23px 33px;
+    font-size: 18px;
+    font-style: normal;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+#variar{
+    color: rgb(192, 192, 192);
+    font-size: 12px;
+    display: block;
+    text-align: center;
+    padding: 20px 0px;
+}
+#somentedisney{
+    color: rgb(249, 249, 249);
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    font-style: normal;
+}
+#ultimo{
+    color: rgb(192, 192, 192);
+    font-size: 18px;
+    font-style: normal;
+    letter-spacing: 0.2px;
+    text-align: center;
+    display: block;
+    padding: 10px 0;
+}
